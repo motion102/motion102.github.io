@@ -16,7 +16,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Animation</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=14225328"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=143219050" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3869112299" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=292640146"/>
@@ -71,7 +71,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <p>Singing Duck is a digital multimedia company. We craft beautifully useful media, experiences and digital products that grow businesses.</p>
     </div>
     <div class="clearfix mse_pre_init" id="u2340"><!-- group -->
-     <a class="nonblock nontext anim_swing clearfix grpelem" id="u230-4" href="index.html#contact"><!-- content --><p class="button1">CONTACT US</p></a>
+     <div class="button1 clearfix grpelem" id="u230-4"><!-- content -->
+      <p>CONTACT US</p>
+     </div>
     </div>
     <div class="clip_frame mse_pre_init" id="u3934"><!-- image -->
      <img class="block" id="u3934_img" src="images/445513-pfp8vm-592-crop-u3934.png?crc=3808816876" alt="" width="412" height="305"/>
@@ -112,7 +114,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="clearfix colelem" id="u1674-4"><!-- content -->
      <p>© 2019 Singing Duck. All rights reserved.</p>
     </div>
-    <a class="anchor_item colelem" id="contact"></a>
    </div>
    <div class="clearfix grpelem" id="pwidgetu888"><!-- group -->
     <form class="form-grp clearfix mse_pre_init" id="widgetu888" method="post" enctype="multipart/form-data" action="scripts/form-u888.php"><!-- none box -->
@@ -193,23 +194,23 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#widgetu888', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu888 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#u93').registerBackgroundPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,18.9]},{"speed":[0,2],"in":[18.9,Infinity]}]);/* scroll effect */
-$('#u320').registerBackgroundPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,496.05]},{"speed":[0,2],"in":[496.05,Infinity]}]);/* scroll effect */
-$('#u4055').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,276.5]},{"speed":[0,1],"in":[276.5,Infinity]}]);/* scroll effect */
-$('#u5569').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,276.5]},{"speed":[0,1],"in":[276.5,Infinity]}]);/* scroll effect */
-$('#u5572').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,276.5]},{"speed":[0,1],"in":[276.5,Infinity]}]);/* scroll effect */
-$('#u5575').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,276.5]},{"speed":[0,1],"in":[276.5,Infinity]}]);/* scroll effect */
-$('#u106-4').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,18.85]},{"speed":[-2,1],"in":[18.85,Infinity]}]);/* scroll effect */
-$('#u227-4').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,103.9]},{"speed":[-2,1],"in":[103.9,Infinity]}]);/* scroll effect */
-$('#u2340').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,109.85]},{"speed":[-2,1],"in":[109.85,Infinity]}]);/* scroll effect */
-$('#u3934').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,19.54]},{"speed":[2,1],"in":[19.54,Infinity]}]);/* scroll effect */
-$('#u5185').registerPositionScrollEffect([{"speed":[0,1],"in":[-Infinity,889.3]},{"speed":[-2,1],"in":[889.3,Infinity]}]);/* scroll effect */
-$('#u877').registerBackgroundPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,1266.05]},{"speed":[0,2],"in":[1266.05,Infinity]}]);/* scroll effect */
-$('#widgetu888').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,1008.1]},{"speed":[0,1],"in":[1008.1,Infinity]}]);/* scroll effect */
-$('#u2360').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,1316.95]},{"speed":[0,1],"in":[1316.95,Infinity]}]);/* scroll effect */
-$('#u2361').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,1263.1]},{"speed":[0,1],"in":[1263.1,Infinity]}]);/* scroll effect */
-$('#u2362').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,1276.1]},{"speed":[0,1],"in":[1276.1,Infinity]}]);/* scroll effect */
-$('#u2363').registerPositionScrollEffect([{"speed":[0,2],"in":[-Infinity,1284.1]},{"speed":[0,1],"in":[1284.1,Infinity]}]);/* scroll effect */
+$('#u93').registerBackgroundPositionScrollEffect([{"in":[-Infinity,18.9],"speed":[0,2]},{"in":[18.9,Infinity],"speed":[0,2]}]);/* scroll effect */
+$('#u320').registerBackgroundPositionScrollEffect([{"in":[-Infinity,496.05],"speed":[0,2]},{"in":[496.05,Infinity],"speed":[0,2]}]);/* scroll effect */
+$('#u4055').registerPositionScrollEffect([{"in":[-Infinity,276.5],"speed":[0,2]},{"in":[276.5,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u5569').registerPositionScrollEffect([{"in":[-Infinity,276.5],"speed":[0,2]},{"in":[276.5,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u5572').registerPositionScrollEffect([{"in":[-Infinity,276.5],"speed":[0,2]},{"in":[276.5,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u5575').registerPositionScrollEffect([{"in":[-Infinity,276.5],"speed":[0,2]},{"in":[276.5,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u106-4').registerPositionScrollEffect([{"in":[-Infinity,18.85],"speed":[0,1]},{"in":[18.85,Infinity],"speed":[-2,1]}]);/* scroll effect */
+$('#u227-4').registerPositionScrollEffect([{"in":[-Infinity,103.9],"speed":[0,1]},{"in":[103.9,Infinity],"speed":[-2,1]}]);/* scroll effect */
+$('#u2340').registerPositionScrollEffect([{"in":[-Infinity,109.85],"speed":[0,1]},{"in":[109.85,Infinity],"speed":[-2,1]}]);/* scroll effect */
+$('#u3934').registerPositionScrollEffect([{"in":[-Infinity,19.54],"speed":[0,1]},{"in":[19.54,Infinity],"speed":[2,1]}]);/* scroll effect */
+$('#u5185').registerPositionScrollEffect([{"in":[-Infinity,889.3],"speed":[0,1]},{"in":[889.3,Infinity],"speed":[-2,1]}]);/* scroll effect */
+$('#u877').registerBackgroundPositionScrollEffect([{"in":[-Infinity,1264.05],"speed":[0,2]},{"in":[1264.05,Infinity],"speed":[0,2]}]);/* scroll effect */
+$('#widgetu888').registerPositionScrollEffect([{"in":[-Infinity,1008.1],"speed":[0,2]},{"in":[1008.1,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u2360').registerPositionScrollEffect([{"in":[-Infinity,1316.95],"speed":[0,2]},{"in":[1316.95,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u2361').registerPositionScrollEffect([{"in":[-Infinity,1263.1],"speed":[0,2]},{"in":[1263.1,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u2362').registerPositionScrollEffect([{"in":[-Infinity,1276.1],"speed":[0,2]},{"in":[1276.1,Infinity],"speed":[0,1]}]);/* scroll effect */
+$('#u2363').registerPositionScrollEffect([{"in":[-Infinity,1284.1],"speed":[0,2]},{"in":[1284.1,Infinity],"speed":[0,1]}]);/* scroll effect */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
