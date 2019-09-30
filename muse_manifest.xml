@@ -1,0 +1,73 @@
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="motion102.github.io" resolutions="1x" timestamp="1569837715755">
+  <folder name="css">
+    <file name="site_global.css" crc="14225328"/>
+    <file name="index.css" crc="108086018" ref="index"/>
+    <file name="iefonts_index.css" crc="292640146" ref="index"/>
+  </folder>
+  <folder name="assets">
+    <file name="home-loop.mp4" crc="18849001" seo="true" mt="1566887392000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:tablet>index:index"/>
+    <file name="museutils.js" crc="3803043152" ref="phone>index:tablet>index:index"/>
+    <file name="whatinput.js" crc="86476730" ref="phone>index:tablet>index:index"/>
+    <file name="museconfig.js" crc="380897831" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="phone>index:tablet>index:index"/>
+    <file name="require.js" crc="4157109226" ref="phone>index:tablet>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index"/>
+    <file name="webpro.js" crc="242022427" ref="index"/>
+    <file name="form_check.php" crc="147359589" ref="index"/>
+    <file name="form_throttle.php" crc="93986428" ref="index"/>
+    <file name="form_process.php" crc="3851993751" ref="index"/>
+    <file name="form-u888.php" crc="3802568927" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="ani1.jpg" crc="4037712199" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ani2.jpg" crc="3775605428" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ani3.jpg" crc="3758480760" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ani4.jpg" crc="4216899265" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="445513-pfp8vm-592-crop-u3934.png" crc="3808816876" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="logo.jpg" crc="344942634" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="green-bg.png" crc="3906196488" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="orange-bg.png" crc="4194313429" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="purple-bg.png" crc="4028653270" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="footer_icon01.png" crc="4263490221" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="placeholder_small-u934-fr.jpg" crc="281523843" ref="index"/>
+  </folder>
+  <folder name="tablet">
+    <folder name="css">
+      <file name="index.css" crc="4046498137" ref="tablet>index"/>
+    </folder>
+    <file name="index.html" crc="513713501" seo="true" mt="1407282716505" redirect="false"/>
+  </folder>
+  <folder name="phone">
+    <folder name="css">
+      <file name="index.css" crc="263663261" ref="phone>index"/>
+    </folder>
+    <file name="index.html" crc="147857868" seo="true" mt="1407282697538" redirect="false"/>
+  </folder>
+  <file name="index.html" crc="4233872786" seo="true" mt="1569837698662" redirect="true"/>
+</manifest>
