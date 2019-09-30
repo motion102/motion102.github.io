@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="motion102.github.io" resolutions="1x" timestamp="1569846981277">
+<manifest alg="2" build="2018.0.0.379" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="motion102.github.io" resolutions="1x" timestamp="1569847111558">
   <folder name="css">
     <file name="site_global.css" crc="14225328"/>
-    <file name="index.css" crc="3869112299" ref="index"/>
+    <file name="index.css" crc="3886190133" ref="index"/>
     <file name="iefonts_index.css" crc="292640146" ref="index"/>
   </folder>
   <folder name="assets">
@@ -69,5 +69,5 @@
     </folder>
     <file name="index.html" crc="147857868" seo="true" mt="1407282697538" redirect="false"/>
   </folder>
-  <file name="index.html" crc="4116257581" seo="true" mt="1569846968128" redirect="true"/>
+  <file name="index.html" crc="86370020" seo="true" mt="1569847091547" redirect="true"/>
 </manifest>
